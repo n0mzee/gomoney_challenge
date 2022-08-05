@@ -1,0 +1,24 @@
+{
+  "name": "restuarant-list-docker",
+  "version": "1.0.0",
+  "description": "This git repo contains a simple node.js API with a Dockerfile used for building the image",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0mzee/Writing-and-Dockerizing-a-simple-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n0mzee/Writing-and-Dockerizing-a-simple-API/issues"
+  },
+  "homepage": "https://github.com/n0mzee/Writing-and-Dockerizing-a-simple-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}

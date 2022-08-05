@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trending-lagos-restuarants
+spec:
+  selector:
+
+  template:
+    metadata:
+      labels:
+        app: trending-lagos-restuarants
+    spec:
+      containers:
+      - name: trending-lagos-restuarants
+        image:  trending-restuarants/latest
+        ports:
+        - name:  app          
+          protocol: TCP
+          containerPort: 3030
+    
